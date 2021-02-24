@@ -18,20 +18,22 @@ body {
   display: flex;
   justify-content:center;
 } 
-.card {
+/* .card {
   width: auto;
   height: auto;
-}
+} */
 .card-header {
   font-size: 1.55rem;
   font-weight: 600;
 
 }
-.card-text {
-  float: right;
-  margin-top: 1rem;
-}
 
+.card-text {
+  
+  height: 8rem;
+  margin-top: 1rem;
+  overflow: auto;
+} 
 hr {
   margin-top: 30px;
   margin-bottom: 30px;
