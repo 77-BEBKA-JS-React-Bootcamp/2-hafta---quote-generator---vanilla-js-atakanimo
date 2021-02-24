@@ -10,8 +10,8 @@ body {
   font-family: Barlow;
 } 
 #quoteSymbol {
-  padding-top: 100px; 
-  padding-bottom: 80px;
+  padding-top: 6rem; 
+  padding-bottom: 4rem;
 }
  
 .showText .container {
