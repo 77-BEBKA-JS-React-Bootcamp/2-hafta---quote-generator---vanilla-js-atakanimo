@@ -51,6 +51,7 @@ hr {
   background: #23251F;
   font-family: Barlow;
   border-radius: 7px;
+  opacity: 0.9;
 }
 
 #tweet-quote {
@@ -60,6 +61,7 @@ hr {
   padding :7px 8px 10px 8px;
   text-decoration:none;
   border-radius: 7px;
+  opacity: 0.9;
 }
 #loader {
   display: flex;
@@ -78,4 +80,12 @@ hr {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+.card-body ,.card-header {
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 3px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
